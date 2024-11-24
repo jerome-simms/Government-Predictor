@@ -10,7 +10,7 @@ class GovernmentPredictor:
         'No social unrest: There is no sustained social unrest during the term.',
         'No scandal: The incumbent administration is untainted by major scandal.',
         'No foreign or military failure: The incumbent administration suffers no major failure in foreign or military affairs.',
-        'Major foreign or military success:	The incumbent administration achieves a major success in foreign or military affairs.',
+        'Major foreign or military success: The incumbent administration achieves a major success in foreign or military affairs.',
         'Charismatic incumbent: The incumbent party candidate is charismatic or a national hero.',
         'Uncharismatic challenger: The challenging party candidate is not charismatic or a national hero.'
     ]
