@@ -5,6 +5,10 @@ developed by Allan Litchman. This application runs in the command-line and state
 user has entered all of their responses, the application then states whether or not
 the incumbent government will remain in power based on the user's responses.
 
-# How to run
+## How to run
 This application has no external dependencies and as such can be run using the command:
 `python main.py`
+
+## How to run tests
+Tests for this simple application can be run using the command:
+`python -m unittest`

@@ -28,10 +28,7 @@ class GovernmentPredictor:
             self.boolean_keys[i] = True if response == 'y' else False
 
     def print_predicted_result(self):
-        if self.make_prediction():
-            print('\n\nThe incumbent government remains in power')
-        else:
-            print("\n\nThere will be a change of government")
+        print(self.get_predicted_result())
 
     def make_prediction(self):
         """This function will return True if 6 or more of the keys are True"""
@@ -39,6 +36,14 @@ class GovernmentPredictor:
         for val in self.boolean_keys:
             count += 1 if val else 0
         return count >= 6
+    
+    def get_predicted_result(self):
+        result = ''
+        if self.make_prediction():
+            result = '\n\nThe incumbent government remains in power'
+        else:
+            result = "\n\nThere will be a change of government"
+        return result
     
     def reset_keys(self):
         self.boolean_keys = [False for i in range(13)]
