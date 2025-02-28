@@ -1,6 +1,6 @@
-# Keys to the white house implementation
+# Keys to the white house driver code
 
-from government_predictor import GovernmentPredictor
+from predictor.government_predictor import GovernmentPredictor
 
 
 opening_message = """

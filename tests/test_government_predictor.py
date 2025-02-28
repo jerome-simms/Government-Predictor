@@ -1,6 +1,6 @@
 import unittest
 
-from government_predictor import GovernmentPredictor
+from predictor.government_predictor import GovernmentPredictor
 
 
 class GovernmentPredictorTest(unittest.TestCase):
